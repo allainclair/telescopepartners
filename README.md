@@ -30,12 +30,12 @@ Feel free to use it. You can change it to your own account.
   * `COMPANY_NAME_URLS_EMPLOYEES_PATH` output created of companies' URL and number of employees
     with the header `company,url,employees`. It will be created after `pdm run python main`.
 * `SLEEP_TIME_FOR_LOGIN` is the time to wait for the user to log into LinkedIn. 
-  You may need to do it manually because of the captcha and security check.
+  IMPORTANT: You may need to do it manually because of the captcha and security check.
 
 ## Run project
 
 ```bash
-pdm run python main
+pdm run main
 ```
 
 ## Future improvements
