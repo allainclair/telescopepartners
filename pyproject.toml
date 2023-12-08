@@ -1,0 +1,72 @@
+[project]
+name = ""
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "Allainclair F. Santos", email = "allainclair@gmail.com"},
+]
+dependencies = [
+    "playwright>=1.40.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+test = [
+    "ruff>=0.1.7",
+    "mypy>=1.7.1",
+]
+
+[tool.pdm.scripts]
+main = "python -m src.main"
+
+[tool.ruff]
+line-length = 80
+
+# Suggestions to add to select: EM
+select = [
+    "E",
+    "F",
+    "I",
+    "W",
+    "N",
+    "COM",
+    "C4",
+    "PIE",
+    "T20",
+    "Q",
+    "RET",
+    "SIM",
+    "ARG",
+    "PGH",
+    "RUF",
+]
+ignore = [
+    # https://docs.astral.sh/ruff/formatter/#format-suppression
+    "COM812",
+    "COM819",
+    "E111",
+    "E114",
+    "E117",
+    "D206",
+    "D300",
+    "ISC001",
+    "ISC002",
+    "Q000",
+    "Q001",
+    "Q002",
+    "Q003",
+    "W191",
+    "T201",  # Allow print
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.isort]
+case-sensitive = true
+split-on-trailing-comma = false
+
+[tool.mypy]
+strict = true

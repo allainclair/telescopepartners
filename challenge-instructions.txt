@@ -1,0 +1,15 @@
+Please pick only one of the 3 parts of the test and do the best you can.
+
+a) Write a python script that will access a bunch of documents uploaded in a google drive and will enable us to ask natural language queries. Don’t worry about doing UI stuff, the natural language queries can be simply hardcoded or passed as command line arguments. Also the outputs can be simple print or log statements. The goal is to take an abstract problem and come up with quick prototypes that can work.
+
+b) Give a CSV file of company names, create a script that can find linkedin URLs for those companies. The linkedin URLs should be stored as a CSV file. And once that is done, extend the script using Playwright browser to find the employee count from LinkedIn .
+
+c) Given a CSV of g2crowdurls, write a python script that uses playwright browser to scrape the contents of a companies details from G2Crowd. The goal is to script the company page and return the output in a structured format
+
+Important: The deadline to deliver the solution will be 1 week. HM looks forward to speeding up the process, and if the solution is good, we’ll schedule a 1:1 interview with him for the last round!
+
+What do we look for?
+1. compilable code, that is actually working end to end. Hiring Manager will test it on his local to make sure the code does what it is supposed to.
+2. Attention to detail! How are you going to present the solution?
+3. ReadME file - how are you going to present the solution to someone who is remote? How well are you explaining it?
+4. What’s next? - Are you recommending any future advancements that you can potentially do to the script?
